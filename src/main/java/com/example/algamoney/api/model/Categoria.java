@@ -1,4 +1,4 @@
-package com.example.algamoneyapi.model;
+package com.example.algamoney.api.model;
 
 import java.util.Objects;
 
