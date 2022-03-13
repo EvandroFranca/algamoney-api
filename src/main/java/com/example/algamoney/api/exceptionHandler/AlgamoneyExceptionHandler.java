@@ -85,20 +85,20 @@ public class AlgamoneyExceptionHandler extends ResponseEntityExceptionHandler{
 		
 		private String mensagemUsuario;
 		
-		private String mensagemDesenvovledor;
+		private String mensagemDesenvolvedor;
 
 		public Erro(String mensagemUsuario, String mensagemDesenvovledor) {
 			super();
 			this.mensagemUsuario = mensagemUsuario;
-			this.mensagemDesenvovledor = mensagemDesenvovledor;
+			this.mensagemDesenvolvedor = mensagemDesenvovledor;
 		}
 
 		public String getMensagemUsuario() {
 			return mensagemUsuario;
 		}
 
-		public String getMensagemDesenvovledor() {
-			return mensagemDesenvovledor;
+		public String getMensagemDesenvolvedor() {
+			return mensagemDesenvolvedor;
 		}
 		
 	}
